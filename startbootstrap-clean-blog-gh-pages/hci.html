@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
+    <title>HCI</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-          <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+          <a class="navbar-brand" href="index.html">Team 20</a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fas fa-bars"></i>
@@ -62,8 +62,8 @@
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="page-heading">
-              <h1>About Me</h1>
-              <span class="subheading">This is what I do.</span>
+              <h1>HCI</h1>
+              <!--  <span class="subheading">How we designed and evaluated a prototype for our software system</span> -->
             </div>
           </div>
         </div>
@@ -74,9 +74,101 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p>
+          <div>
+            <h2>Initial research</h2>
+            <p>We used a questionnaire to gather user data to further understand our user requirements. 
+              We formulated the questions in a way that would enable us to gain an understanding of both who would use our system and what features they would appreciate. 
+              This data was then processed and evaluated, enabling us to create our initial sketches, persona and scenario.</p>
+            <p>We believed that this was the best choice as we were able to get answers for specific questions and able to gather both qualitative and quantitative data. 
+              Furthermore, as our users are doctors with busy schedules, we decided to use this data-gathering technique as alternatives were time-consuming. 
+              For example, a focus group would be very difficult to arrange with a sufficient number of users. </p>
+            <p>The questionnaire:</p>
+            <img src="hciphotos/questionnaire.png" width=100%>
+            <br><br>
+          </div>
+          <hr>
+          <div>
+            <h2>Scenario</h2>
+            <p>Dr. Ann Phillips is a Neurosurgeon at St. George’s Hospital, a teaching hospital in London. Aside from diagnosing and treating disorders of the central and peripheral nervous system, she also participates in the training and education of trainee surgeons. 
+              </p>
+            <p>Currently, trainees observe surgeries done by Dr. Ann Phillips by either being present in the operating theatre as she performs a surgery or by watching recorded videos. However, not a lot of students can fit into an operating room at a given time, watching recorded videos has very limited immersion, and having a camera setup in the operating theatre takes up unnecessary space. 
+              </p>
+            <p>Dr. Ann Phillips strongly believes this current method of education can be vastly improved. She then makes use of our web app along with a kinect for azure camera attached to her surgical glasses to record and store videos of her surgeries. She can highlight key events by making timestamps during the recording which can be viewed later. This way, Dr. Ann Phillips’s trainees can watch and study her surgeries anytime and anywhere and as the videos can be viewed in 3D and in 1st person, it will feel as if they are in the operating theatre themselves and see the operation from Dr. Ann Phillips’s point of view. 
+              </p>
+            
+          </div>
+          <hr>
+          <div>
+            <h2>Persona</h2>
+            <br>
+            <img src="hciphotos/persona.png" width=100%> 
+            <br><br>
+          </div>
+          <hr>
+          <div>
+            <h2>Sketches</h2>
+            <p>We drew sketches for alternative designs, storyboards, wireframes based on the user research, keeping our persona and scenario in mind. <br><br>
+              We then showed them to our users in an interview for feedback and redrew them to incorporate the changes for improvement. <br><br>
+             The wireframe and design sketches were used to actualise the prototype and the storyboard was developed from the persona and scenario. 
+             </p>
+          </div>
+          <hr>
+          <div>
+            <h2>Prototype</h2>
+            <br>
+            <img src="hciphotos/prototype.png" width=100%> 
+            <br><br>
+          </div>
+          <hr>
+          <div>
+            <h2>Evaluation</h2>
+            <br>
+            <h4>&rarr; Heuristic evaluation:</h4>
+            <br>
+            <table style="width:100%">
+                <tr>
+                  <th>Heuristic</th>
+                  <th>Problem</th> 
+                  <th>Solution</th>
+                </tr>
+                <tr>
+                  <td>Flexibility</td>
+                  <td>No sort option</td> 
+                  <td>Add sort button</td>
+                </tr>
+                <tr>
+                  <td>User Control</td>
+                  <td>No back/return buttons on some screens</td> 
+                  <td>Add back buttons where appropriate</td>
+                </tr>
+                <tr>
+                    <td>Visibility of system status</td>
+                    <td>Confirmation of save</td> 
+                    <td>Add pop up confirming saving of video</td>
+                  </tr>
+              </table>
+            <br>
+            <h4>&rarr; User test:</h4>
+            <p>After building our initial prototype we showed it to some of the users we sent the questionnaires for initial research to.</p>
+            <p>Improvements suggested:</p>
+            <ul>
+                <li>Add the abiloty to add comments</li>
+                <li>Add a clear sign out button</li>
+                <li>Add a video title when watching a video</li>
+            </ul>
+            <p>Positive comments:</p>
+            <ul>
+              <li>Many appreciated the site's minimalism and intuitivity</li>
+            </ul>
+            <br>
+          </div>
+          <hr>
+          <div>
+            <h2>Improved prototype</h2>
+            <br>
+            <img src="hciphotos/improved.png" width=100%> 
+            <br><br>
+          </div>
         </div>
       </div>
     </div>
